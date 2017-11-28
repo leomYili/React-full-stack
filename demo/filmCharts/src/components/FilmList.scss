@@ -1,0 +1,66 @@
+.film-list{
+    position: relative;
+
+    .film-noData{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .film{
+        overflow: hidden;
+        zoom: 1;
+        margin-top: 15px;
+
+        &:first-child{
+            margin-top: 0px;
+        }
+
+        .film-poster{
+            width:64px;
+            height:86px;
+        }
+
+        .film_left{
+            display: table-cell;
+            vertical-align: top;
+            padding-right: 10px;
+        }
+
+        .film_content{
+            display: table-cell;
+            vertical-align: middle;
+            width:100%;
+            overflow: hidden;
+            zoom: 1;
+
+            h1 {
+                font-size: 18px;
+                margin:5px 0px;
+            }
+
+            p{
+                font-size: 14px;
+                line-height: 5px;
+            }
+        }
+
+        .film_right{
+            display: table-cell;
+            vertical-align: middle;
+            font-size: 18px;
+            padding:0 5px;
+
+            .film-first{
+                color:#d9534f;
+            }
+
+            .film-second{
+                color:#f0ad4e;
+            }
+
+            .film-third{
+                color:#5cb85c;
+            }
+        }
+    }
+}

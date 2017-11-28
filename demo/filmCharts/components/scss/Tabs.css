@@ -1,0 +1,19 @@
+.tab {
+  position: relative; }
+  .tab .tab-title {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd; }
+    .tab .tab-title :after {
+      clear: both; }
+    .tab .tab-title li {
+      float: left;
+      margin-bottom: -1px; }
+      .tab .tab-title li a {
+        color: #555;
+        cursor: default;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-bottom-color: transparent;
+        position: relative;
+        display: block;
+        padding: 10px 15px; }

@@ -1,0 +1,54 @@
+.tab{
+    position: relative;
+
+    .tab-title{
+        margin: 0;
+        list-style: none;
+        padding:0px 15px;
+        display: flex;
+        position: fixed;
+        z-index: 500;
+        top: 0;
+        width: 100%;
+        background-color: #F7F7FA;
+        border-bottom:1px solid #ddd;
+        box-sizing: border-box;        
+
+        li{
+            flex: 1;
+            display: block;
+            text-align: center;
+            margin-bottom: -2px;
+            padding: 5px 0px 0px 0px;
+
+            a{
+                margin-right: 2px;
+                line-height: 1.42857143;
+                border: 1px solid transparent;
+                border-radius: 4px 4px 0 0;
+                display: block;
+                padding: 10px 15px;
+            }
+
+            &.tab-active a{
+                color: #555;
+                cursor: default;
+                background-color: #fff;
+                border: 1px solid #ddd;
+                border-bottom-color: transparent;
+                position: relative;
+            }
+        }
+    }
+
+    .tab-content{
+        padding:0px 15px;
+        .tab-panel{
+            display: none;
+        }
+
+        .tab-panel.tab-active{
+            display:block;
+        }
+    }
+}

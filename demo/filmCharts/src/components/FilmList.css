@@ -1,0 +1,41 @@
+.film-list {
+  position: relative; }
+  .film-list .film-noData {
+    text-align: center;
+    font-size: 18px; }
+  .film-list .film {
+    overflow: hidden;
+    zoom: 1;
+    margin-top: 15px; }
+    .film-list .film:first-child {
+      margin-top: 0px; }
+    .film-list .film .film-poster {
+      width: 64px;
+      height: 86px; }
+    .film-list .film .film_left {
+      display: table-cell;
+      vertical-align: top;
+      padding-right: 10px; }
+    .film-list .film .film_content {
+      display: table-cell;
+      vertical-align: middle;
+      width: 100%;
+      overflow: hidden;
+      zoom: 1; }
+      .film-list .film .film_content h1 {
+        font-size: 18px;
+        margin: 5px 0px; }
+      .film-list .film .film_content p {
+        font-size: 14px;
+        line-height: 5px; }
+    .film-list .film .film_right {
+      display: table-cell;
+      vertical-align: middle;
+      font-size: 18px;
+      padding: 0 5px; }
+      .film-list .film .film_right .film-first {
+        color: #d9534f; }
+      .film-list .film .film_right .film-second {
+        color: #f0ad4e; }
+      .film-list .film .film_right .film-third {
+        color: #5cb85c; }

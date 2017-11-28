@@ -1,0 +1,22 @@
+.sort {
+  margin: 0;
+  padding: 0;
+  padding-top: 56px;
+  margin-bottom: 6px;
+  display: flex;
+  list-style: none;
+  box-sizing: border-box; }
+  .sort li {
+    flex: 1;
+    display: block;
+    padding: 5px;
+    background: #ddd;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+    .sort li.active {
+      background: #d9534f;
+      color: #fff; }
